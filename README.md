@@ -31,7 +31,7 @@ Este proyecto descarga todas las imágenes de cartas de la página de [Secret La
 
 1. Clona el repositorio:
 ```bash
-git clone <url-del-repositorio>
+git clone git@github.com:kusillus/sld-downloader.git
 cd sld-downloader
 ```
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 1. Clona el repositorio:
 ```bash
-git clone <url-del-repositorio>
+git clone git@github.com:kusillus/sld-downloader.git
 cd sld-downloader
 ```
 
