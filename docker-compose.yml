@@ -1,0 +1,9 @@
+services:
+  sld-downloader:
+    build: .
+    container_name: sld-downloader
+    working_dir: /app
+    # Sólo montamos la carpeta de resultados
+    volumes:
+      - ./output:/app/output
+    # No hace falta command: usará el CMD del Dockerfile
